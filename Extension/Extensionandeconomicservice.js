@@ -14,17 +14,10 @@ export default function Extensionandeconomicservice(){
             </View>
 
             <View style={{alignItems:"center",backgroundColor:"white",borderRadius:10,marginTop:20}}>
-            <Text style={{fontSize:30,marginBottom:20}}>Dịch vụ tài chính</Text>
-            <Ecustombutton Text="Bảo hiểm" icon="wallet" onPress={()=>{}}/>
-            <Ecustombutton Text="Tiết kiệm online" icon="area-graph" onPress={()=>{}}/>
-
-
+                <Text style={{fontSize:30,marginBottom:20}}>Dịch vụ tài chính</Text>
+                <Ecustombutton Text="Bảo hiểm" icon="wallet" onPress={()=>{}}/>
+                <Ecustombutton Text="Tiết kiệm online" icon="area-graph" onPress={()=>{}}/>
             </View>
-
-
-
-
-
 
         </View>
     )
